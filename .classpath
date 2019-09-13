@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/peru/Documents/Work/SeleniumTest/selenium-api-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/peru/Documents/Work/SeleniumTest/selenium-chrome-driver-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/peru/Documents/Work/SeleniumTest/selenium-firefox-driver-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/peru/Documents/Work/SeleniumTest/selenium-ie-driver-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/peru/Documents/Work/SeleniumTest/selenium-java-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/peru/Documents/Work/SeleniumTest/selenium-server-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/peru/Documents/Work/SeleniumTest/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/peru/Documents/Work/SeleniumTest/selenium-support-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/peru/Documents/Work/SeleniumTest/webdrivermanager-3.6.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
