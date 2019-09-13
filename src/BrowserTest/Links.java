@@ -12,25 +12,19 @@ import org.openqa.selenium.support.ui.Select;
 public class Links {
 	
 	public static WebDriver driver = new ChromeDriver();
-	
-	
 
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver", "C://Users//peru//eclipse-workspace//SeleniumWebDriver//src//resources//chromedriver.exe");
 		driver.get("https://demoproject.simplytest.de/");
 		driver.manage().window().maximize();
 		//driver.findElement(By.name("orderby")).sendKeys("Nach Neuheit sortiert");
-		
-		
-		
+	
 		WebElement block = driver.findElement(By.xpath("//ul[@class='nav-menu']"));
 		int size = block.findElements(By.tagName("li")).size();
 		for(int i = 0; i<size; i++) {
 			System.out.println(block.findElements(By.tagName("li")).get(i).findElement(By.tagName("a")).getAttribute("href").toString());
 		}
-		
-		
-		
+	
 	}
 
 }
