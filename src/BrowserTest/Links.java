@@ -13,7 +13,7 @@ public class Links {
 	
 	public static WebDriver driver = new ChromeDriver();
 	
-	
+	//Änderung
 
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver", "C://Users//peru//eclipse-workspace//SeleniumWebDriver//src//resources//chromedriver.exe");
